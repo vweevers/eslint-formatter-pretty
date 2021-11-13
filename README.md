@@ -39,9 +39,7 @@ remark --report vfile-reporter-shiny .
 
 ### [Hallmark](https://github.com/vweevers/hallmark)
 
-```
-hallmark --report vfile-reporter-shiny
-```
+Nothing to do. It's the default reporter.
 
 ## License
 

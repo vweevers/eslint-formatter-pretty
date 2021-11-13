@@ -1,17 +1,20 @@
-const test = require('ava')
-const stripAnsi = require('strip-ansi')
-const ansiEscapes = require('ansi-escapes')
-const chalk = require('chalk')
-const defaultFixture = require('./fixtures/default.json')
-const noRuleDocs = require('./fixtures/no-rule-docs.json')
-const noRuleId = require('./fixtures/no-rule-id.json')
-const urls = require('./fixtures/urls.json')
-const noLineNumbers = require('./fixtures/no-line-numbers.json')
-const lineNumbers = require('./fixtures/line-numbers.json')
-const sortOrder = require('./fixtures/sort-by-severity-then-line-then-column.json')
-const messages = require('./fixtures/messages.json')
-const data = require('./fixtures/data.json')
-const reporter = require('..')
+import test from 'ava'
+import stripAnsi from 'strip-ansi'
+import ansiEscapes from 'ansi-escapes'
+import chalk from 'chalk'
+import reporter from '../index.js'
+import fs from 'node:fs'
+
+const read = (fp) => JSON.parse(fs.readFileSync(new URL(fp, import.meta.url), 'utf8'))
+const defaultFixture = read('./fixtures/default.json')
+const noRuleDocs = read('./fixtures/no-rule-docs.json')
+const noRuleId = read('./fixtures/no-rule-id.json')
+const urls = read('./fixtures/urls.json')
+const noLineNumbers = read('./fixtures/no-line-numbers.json')
+const lineNumbers = read('./fixtures/line-numbers.json')
+const sortOrder = read('./fixtures/sort-by-severity-then-line-then-column.json')
+const messages = read('./fixtures/messages.json')
+const data = read('./fixtures/data.json')
 
 const fakeMessages = (desiredSeverity, desiredCount) => {
   const ofDesiredSeverity = messages.filter(({ severity }) => severity === desiredSeverity)

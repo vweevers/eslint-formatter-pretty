@@ -1,18 +1,17 @@
-'use strict'
+import chalk from 'chalk'
+import plur from 'plur'
+import stringWidth from 'string-width'
+import ansiEscapes from 'ansi-escapes'
+import { supportsHyperlink as sh } from 'supports-hyperlinks'
+import getRuleDocs from 'eslint-rule-docs'
+import stringify from 'unist-util-stringify-position'
+import toAnsi from 'markdown-to-ansi'
+import fs from 'node:fs'
+import path from 'node:path'
 
-const path = require('path')
-const chalk = require('chalk')
-const plur = require('plur')
-const fs = require('fs')
-const stringWidth = require('string-width')
-const ansiEscapes = require('ansi-escapes')
-const sh = require('supports-hyperlinks').supportsHyperlink
-const getRuleDocs = require('eslint-rule-docs')
-const stringify = require('unist-util-stringify-position')
-const toAnsi = require('markdown-to-ansi')
 const logSymbols = getLogSymbols()
 
-module.exports = function (files, options) {
+export default function (files, options) {
   if (!options) options = {}
 
   const lines = []
