@@ -36,7 +36,7 @@
 		"depcheck": "^1.3.1",
 		"hallmark": "^3.1.0",
 		"standard": "^16.0.3",
-		"strip-ansi": "^6.0.0"
+		"strip-ansi": "^7.0.1"
 	},
 	"ava": {
 		"serial": true
