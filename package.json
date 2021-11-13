@@ -11,7 +11,8 @@
 		"test": "standard && ava && hallmark"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"CHANGELOG.md"
 	],
 	"keywords": [
 		"vfile",

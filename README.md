@@ -2,10 +2,11 @@
 
 **Shiny reporter for [`vfile`](https://github.com/vfile/vfile).** Visually similar to [`vfile-reporter-pretty`](https://github.com/vfile/vfile-reporter-pretty) but avoids a transformation to eslint messages which allows us to support info messages. In addition, it adds hyperlinks to [`remark`](https://remark.js.org/) and [`attend`](https://github.com/vweevers/attend) rules and enables unicode output and hyperlinks in Windows Terminal.
 
-[![npm status](http://img.shields.io/npm/v/vfile-reporter-shiny.svg)](https://www.npmjs.org/package/vfile-reporter-shiny)
-[![node](https://img.shields.io/node/v/vfile-reporter-shiny.svg)](https://www.npmjs.org/package/vfile-reporter-shiny)
-![Test](https://github.com/vweevers/vfile-reporter-shiny/workflows/Test/badge.svg?branch=main)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm](http://img.shields.io/npm/v/vfile-reporter-shiny.svg)](https://www.npmjs.org/package/vfile-reporter-shiny)
+[![Node version](https://img.shields.io/node/v/vfile-reporter-shiny.svg)](https://www.npmjs.org/package/vfile-reporter-shiny)
+[![Test](https://img.shields.io/github/workflow/status/vweevers/vfile-reporter-shiny/Test?label=test)](https://github.com/vweevers/vfile-reporter-shiny/actions/workflows/test.yml)
+[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript&logoColor=fff)](https://standardjs.com)
+[![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
 
 ![screenshot](screenshot.png)
 

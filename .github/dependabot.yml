@@ -6,7 +6,6 @@ updates:
       interval: monthly
     ignore:
       - dependency-name: standard
-      - dependency-name: depcheck
       - dependency-name: ava
   - package-ecosystem: github-actions
     directory: /
