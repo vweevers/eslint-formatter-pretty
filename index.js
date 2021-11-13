@@ -4,7 +4,7 @@ import stringWidth from 'string-width'
 import ansiEscapes from 'ansi-escapes'
 import { supportsHyperlink as sh } from 'supports-hyperlinks'
 import getRuleDocs from 'eslint-rule-docs'
-import stringify from 'unist-util-stringify-position'
+import { stringifyPosition } from 'unist-util-stringify-position'
 import toAnsi from 'markdown-to-ansi'
 import fs from 'node:fs'
 import path from 'node:path'
@@ -53,7 +53,7 @@ export default function (files, options) {
       path: file.path,
       relativePath: relativePath || '.',
       isDir: isDir(relativePath, absolutePath),
-      firstLinePos: stringify(firstError)
+      firstLinePos: stringifyPosition(firstError)
     })
 
     for (const m of messages.sort(cmpMessage)) {
@@ -66,7 +66,7 @@ export default function (files, options) {
       // Link and shorten urls, stylize inline code blocks
       reason = transform(reason)
 
-      const pos = stringify(m)
+      const pos = stringifyPosition(m)
       const posWidth = stringWidth(pos)
       const reasonWidth = stringWidth(reason)
 
