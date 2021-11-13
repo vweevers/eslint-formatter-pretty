@@ -1,6 +1,6 @@
 {
 	"name": "vfile-reporter-shiny",
-	"version": "0.1.2",
+	"version": "1.0.0",
 	"description": "Shiny reporter for vfile",
 	"license": "MIT",
 	"repository": "vweevers/vfile-reporter-shiny",

@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.0] - 2021-11-13
+
+### Changed
+
+- **Breaking:** use ESM and drop Node.js &lt; 12.20 ([`2f283a3`](https://github.com/vweevers/vfile-reporter-shiny/commit/2f283a3))
+- Bump `unist-util-stringify-position` ([`da07de7`](https://github.com/vweevers/vfile-reporter-shiny/commit/da07de7))
+- Bump `string-width` ([`b692c6f`](https://github.com/vweevers/vfile-reporter-shiny/commit/b692c6f))
+- Bump `plur` ([`648c8bb`](https://github.com/vweevers/vfile-reporter-shiny/commit/648c8bb))
+- Bump `ansi-escapes` ([`d30ac35`](https://github.com/vweevers/vfile-reporter-shiny/commit/d30ac35))
+
 ## [0.1.2] - 2020-11-23
 
 ### Added
@@ -20,6 +30,8 @@
 ## [0.1.0] - 2020-11-20
 
 _:seedling: Initial release._
+
+[1.0.0]: https://github.com/vweevers/vfile-reporter-shiny/releases/tag/v1.0.0
 
 [0.1.2]: https://github.com/vweevers/vfile-reporter-shiny/releases/tag/v0.1.2
 
