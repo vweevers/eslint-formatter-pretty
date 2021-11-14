@@ -5,7 +5,7 @@
 [![npm](http://img.shields.io/npm/v/vfile-reporter-shiny.svg)](https://www.npmjs.org/package/vfile-reporter-shiny)
 [![Node version](https://img.shields.io/node/v/vfile-reporter-shiny.svg)](https://www.npmjs.org/package/vfile-reporter-shiny)
 [![Test](https://img.shields.io/github/workflow/status/vweevers/vfile-reporter-shiny/Test?label=test)](https://github.com/vweevers/vfile-reporter-shiny/actions/workflows/test.yml)
-[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript&logoColor=fff)](https://standardjs.com)
+[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript\&logoColor=fff)](https://standardjs.com)
 [![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
 
 ![screenshot](screenshot.png)
