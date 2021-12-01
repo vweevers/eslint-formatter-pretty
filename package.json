@@ -24,7 +24,7 @@
 	],
 	"dependencies": {
 		"ansi-escapes": "^5.0.0",
-		"chalk": "^4.1.0",
+		"chalk": "^5.0.0",
 		"eslint-rule-docs": "^1.1.5",
 		"markdown-to-ansi": "^1.0.0",
 		"plur": "^5.0.0",
