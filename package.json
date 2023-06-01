@@ -28,7 +28,7 @@
 		"eslint-rule-docs": "^1.1.5",
 		"markdown-to-ansi": "^1.0.0",
 		"plur": "^5.0.0",
-		"string-width": "^5.0.1",
+		"string-width": "^6.1.0",
 		"supports-hyperlinks": "^2.0.0",
 		"unist-util-stringify-position": "^3.0.0"
 	},
